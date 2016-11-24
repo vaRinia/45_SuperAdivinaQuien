@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>¡SuperAdivina quién!</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no  initial-scale=1 maximum-scale=1 minimum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+	</head>
+	<body>
+		<div class="container-fluid" style="padding-right: 10%; padding-left:10%;">
+			<div class="row">
+				<div class="col-xs-8">
+					<a href="index.html" class="text-center"><h1 class="animated animated.hinge rubberBand">¡SuperAdivina Quién!</h1></a>
+					<hr>
+				</div>
+				<div class="col-xs-4">
+					<h3>Puntos:</h3>
+					<h2 id="puntaje" class="text-center">0</h2>
+				</div>
+			</div>
+			<div class="row" id="quitarfinal">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+					<h2 class="animated animated.hinge bounce">¡Bienvenida!<small> Tu misión es escribir el nombre de cada compañera de clase. <br>¡Tienes tres oportunidades para cada una!</small></h2>
+					<hr>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<h2 class="text-center animated animated.hinge bounceIn">¡Empecemos!</h2>
+				<!-- Split button -->
+					<select class="form-control btn-success animated animated.hinge rubberBand" id="pais">
+                        <option value="opc" disabled selected>Selecciona tu sede</option>
+                        <option value="0">Ciudad de México</option>
+                        <option value="1">Lima</option>
+                        <option value="2">Arequipa</option>
+                        <option value="3">Santiago</option>
+                    </select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div id="lugarfoto">
+						<img src="img/0interrogacion.png" class="img-responsive img-rounded">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 animated animated-hinge bounceIn" style="display: none" id="mostrarInput">
+						<div class="col-xs-12" style="padding : 10%; display: none" id="textos">
+							<span class="text-center bg-success" style="margin: 100px; ">
+								<h1 class="animated animated-infinite bounceIn text-center" id="final" style="display: none; font-size: 50px;">¡Lo lograste! <br>¿Qué tal te fué?</h1>
+								<h3 class="bg-danger  animated animated-infinite bounceIn" id="fallo" style="display: none">No lo lograste, ¡Sigue intentando con las demás! ¡Haz perdido puntos!</h3>
+								<h3 class="bg-success animated animated-hinge rubberBand" id="success" style="display: none">¡Super! ¡Haz ganado puntos!</h3>
+								<h3 class="bg-danger animated animated-hinge wobble" id="intenta" style="display: none">¡No es ella! ¡Vuelve a intentarlo!</h3>
+							</span>
+						</div>
+
+					<div class="row" id="quitarfinal2">
+					<h3>¿Quién es?</h3>
+						<div class="input-group">
+						<input type="text" class="form-control" placeholder="Nombre..." id="adivinar">
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="button" id="comprobar">¡ Comprueba !</button>
+						</span>
+					</div><!-- /input-group -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- BOOTSTRAP JAVASCRIPT -->
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script><!--referencias a js-->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<!--<script type="text/javascript" src="js/main.js"></script>-->
+		<script type="text/javascript" src="js/prueba.js"></script>
+	</body>
+</html>
