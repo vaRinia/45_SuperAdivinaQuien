@@ -5,25 +5,89 @@ imgMex[0] = {
 	nombre : "veronica",
 	foto : "img/veronica.jpg"
 };
+imgMex[1] = {
+	nombre: "okaidy",
+	foto: "img/okaidy.jpg"
+};
+imgMex[2] = {
+	nombre : "shantal",
+	foto : "img/shantal.jpg"
+};
+imgMex[3] = {
+	nombre : "varinia",
+	foto : "img/varinia.jpg"
+};
+imgMex[4] = {
+	nombre : "karem",
+	foto : "img/karem.jpg"
+};
+imgMex[5] = {
+	nombre : "adriana",
+	foto : "img/adriana.jpg"
+};
+imgMex[6] = {
+	nombre : "claudia",
+	foto : "img/claudia.jpg"
+};
+imgMex[7] = {
+	nombre : "valeria",
+	foto : "img/valeria.jpg"
+};
+imgMex[8] = {
+	nombre : "montserrat",
+	foto : "img/montserrat.jpg"
+};
+imgMex[9] = {
+	nombre : "vannia",
+	foto : "img/vannia.jpg"
+};
+imgMex[10] = {
+	nombre : "carmen",
+	foto : "img/carmen.jpg"
+};
+/*imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};
+imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};
+imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};
+imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};
+imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};
+imgMex[] = {
+	nombre : "",
+	foto : "img/.jpg"
+};*/
 
 //DATOS LIMA
 var imgLim;
 imgLim = [];
 imgLim[0] = {
-	nombre : "lim1",
-	foto : "img/lim1.jpg"
+	nombre : "marge",
+	foto : "img/lisa.jpg"
 };
 imgLim[1] = {
-	nombre: "lim2",
-	foto: "img/lim2.jpg"
+	nombre: "lisa",
+	foto: "img/lisa.jpg"
 };
 
 //DATOS AREQUIPA
 var imgAre;
 imgAre = [];
 imgAre[0] = {
-	nombre : "are1",
-	foto : "img/are1.jpg"
+	nombre : "maggie",
+	foto : "img/maggie.jpg"
 };
 imgAre[1] = {
 	nombre: "are2",
@@ -34,12 +98,12 @@ imgAre[1] = {
 var imgSan;
 imgSan = [];
 imgSan[0] = {
-	nombre : "san1",
-	foto : "img/san1.jpg"
+	nombre : "bellota",
+	foto : "img/bellota.jpg"
 };
 imgSan[1] = {
-	nombre: "san2",
-	foto: "img/san2.jpg"
+	nombre: "bombon",
+	foto: "img/bombon.jpg"
 };
 // ARREGLO GENERAL
 var imgGeneral;
@@ -59,6 +123,7 @@ var pts = 0;
 inputPais.onchange = function() {
 	var numPais = inputPais.value;
 	var pais = imgGeneral[numPais];
+	console.log(pais.length);
 	document.getElementById("mostrarInput").style.display = "block";
 	//imagen aleatoria
 	var i;
