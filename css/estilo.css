@@ -1,0 +1,68 @@
+body {
+	background-image: url("../img/fondos/fondo4.jpg");
+	color: white;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+a:hover{
+	color: pink !important;
+	font-size: 3em !important; /*no se por que no funciona*/
+}
+a {
+	color: #A6E637 !important;
+}
+small {
+	color: white !important;
+}
+.bg-azul {
+	background-color: #68BDEA;
+}
+.text-3 {
+	font-size: 3em;
+}
+.txt-verde {
+	color: #A6E637;
+}
+.bg-verde {
+	background-color: #A6E637;
+}
+.bg-rojo {
+	background-color: red;
+}
+.bg-anaranjado {
+	background-color: orange;
+}
+#vaRi:hover{
+	font-size: 2em;
+}
+@media (max-width: 768px) {
+	#quitarfinal h2{
+		font-size: 1.4em;
+		margin-top: -10px;
+	}
+	select {
+		margin-bottom: 5px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#comprobar {
+		margin-bottom: 10px;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+}
+/*#success, #intenta, #fallo #final #textos #mostrarInput {
+	display: none;
+}
+h1 {
+	font-size: 50px;
+}
+#textos {
+	padding: 10%;
+}
+span {
+	margin: 100px;
+}*/

@@ -7,9 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	</head>
 	<body>
-		<div class="container-fluid" style="padding-right: 10%; padding-left:10%;">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-8">
 					<a href="index.html" class="text-center"><h1 class="animated animated.hinge rubberBand">¡SuperAdivina Quién!</h1></a>
@@ -17,12 +18,12 @@
 				</div>
 				<div class="col-xs-4">
 					<h3>Puntos:</h3>
-					<h2 id="puntaje" class="text-center">0</h2>
+					<h1 id="puntaje" class="text-center">0</h1>
 				</div>
 			</div>
 			<div class="row" id="quitarfinal">
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-					<h2 class="animated animated.hinge bounce">¡Bienvenida!<small> Tu misión es escribir el nombre de cada compañera de clase. <br>¡Tienes tres oportunidades para cada una!</small></h2>
+					<h2 class="animated animated.hinge bounce">¡Bienvenida!<small> Tu misión es escribir el nombre de cada compañera de clase. ¡Tienes tres oportunidades para cada una!</small></h2>
 					<hr>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -45,16 +46,17 @@
 				</div>
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 animated animated-hinge bounceIn" style="display: none" id="mostrarInput">
 						<div class="col-xs-12" style="padding : 10%; display: none" id="textos">
-							<span class="text-center bg-success" style="margin: 100px; ">
-								<h1 class="animated animated-infinite bounceIn text-center" id="final" style="display: none; font-size: 50px;">¡Lo lograste! <br>¿Qué tal te fué?</h1>
-								<h3 class="bg-danger  animated animated-infinite bounceIn" id="fallo" style="display: none">No lo lograste, ¡Sigue intentando con las demás! ¡Haz perdido puntos!</h3>
-								<h3 class="bg-success animated animated-hinge rubberBand" id="success" style="display: none">¡Super! ¡Haz ganado puntos!</h3>
-								<h3 class="bg-danger animated animated-hinge wobble" id="intenta" style="display: none">¡No es ella! ¡Vuelve a intentarlo!</h3>
+							<span class="text-center bg-verde" style="margin: 100px; ">
+								<h3 class="bg-verde animated animated-hinge rubberBand" id="success" style="display: none">¡¡¡¡Super!!!!</h3>
+								<h3 class="bg-anaranjado animated animated-hinge wobble" id="intenta" style="display: none">¡¡¡Ñeeee!!! ¡Vuelve a intentarlo!</h3>
+								<h3 class="bg-rojo  animated animated-infinite bounceIn" id="fallo" style="display: none">¡¡¡Nouuu!!!</h3>
+								<h1 class="animated animated-infinite bounceIn text-center" id="final" style="display: none; font-size: 50px;">¡Yeiiiiii! <br>¿Qué tal te fué?</h1>
+								<h3 id="lugNom" class="bg-anaranjado animated bounceIn"></h3>
 							</span>
 						</div>
 
 					<div class="row" id="quitarfinal2">
-					<h3>¿Quién es?</h3>
+					<h2>¿Quién es?</h2>
 						<div class="input-group">
 						<input type="text" class="form-control" placeholder="Nombre..." id="adivinar">
 						<span class="input-group-btn">
@@ -64,11 +66,15 @@
 					</div>
 				</div>
 			</div>
+			<footer>
+				<hr>
+				<p class="text-center">:) realizado por <span class="txt-verde" id="vaRi"><b>vaRi_</b></span> (:</p>
+			</footer>
 		</div>
 		<!-- BOOTSTRAP JAVASCRIPT -->
 		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script><!--referencias a js-->
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<!--<script type="text/javascript" src="js/main.js"></script>-->
-		<script type="text/javascript" src="js/prueba.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
