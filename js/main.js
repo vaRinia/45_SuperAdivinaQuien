@@ -61,6 +61,12 @@ imgMex[9] = {
 imgMex[10] = {
 	nombre : "carmen",
 	foto : "img/carmen.jpg" };
+imgMex[11] = {
+	nombre : "edith",
+	foto : "img/edith.jpg" };
+imgMex[12] = {
+	nombre : "cristina",
+	foto : "img/cristina.jpg" };
 /*
 var imgMex;
 imgMex = [];
