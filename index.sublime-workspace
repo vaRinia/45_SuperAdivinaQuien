@@ -515,15 +515,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/Alumna/Desktop/Laboratoria/44_Portafolio/index.html",
-			"settings":
-			{
-				"buffer_size": 14145,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -574,6 +565,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Alumna/Desktop/Laboratoria/44_Portafolio/index.html",
 		"/C/Users/Alumna/Desktop/Laboratoria/adoptaMeApp-master/js/js.js",
 		"/C/Users/Alumna/Desktop/Laboratoria/adoptaMeApp-master/js/script-lista.js",
 		"/C/Users/Alumna/Desktop/Laboratoria/adoptaMeApp-master/index.html",
@@ -700,8 +692,7 @@
 		"/C/Users/Alumna/Desktop/Laboratoria/39_DOM_I/Bicis-locas/js/donottouchthisfile.js",
 		"/C/Users/Alumna/Desktop/Laboratoria/39_DOM_I/Bicis-locas/index.html",
 		"/C/Users/Alumna/Desktop/intento bicis locas.js",
-		"/C/Users/Alumna/Desktop/Laboratoria/39_DOM_I/Bicis-locas/js/main.js",
-		"/C/Users/Alumna/Desktop/Laboratoria/39_DOM_I/Bicis-locas/css/registro.css"
+		"/C/Users/Alumna/Desktop/Laboratoria/39_DOM_I/Bicis-locas/js/main.js"
 	],
 	"find":
 	{
@@ -839,39 +830,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Alumna/Desktop/Laboratoria/44_Portafolio/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5314,
-								5314
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1619.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

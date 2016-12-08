@@ -29,44 +29,29 @@ imgSan[1] = {
 var imgMex;
 imgMex = [];
 imgMex[0] = {
-	nombre : "veronica",
-	foto : "img/veronica.jpg" };
-imgMex[1] = {
-	nombre: "okaidy",
-	foto: "img/okaidy.jpg" };
-imgMex[2] = {
-	nombre : "shantal",
-	foto : "img/shantal.jpg" };
-imgMex[3] = {
-	nombre : "varinia",
-	foto : "img/varinia.jpg" };
-imgMex[4] = {
-	nombre : "karem",
-	foto : "img/karem.jpg" };
-imgMex[5] = {
 	nombre : "adriana",
 	foto : "img/adriana.jpg" };
-imgMex[6] = {
-	nombre : "claudia",
-	foto : "img/claudia.jpg" };
-imgMex[7] = {
-	nombre : "valeria",
-	foto : "img/valeria.jpg" };
-imgMex[8] = {
-	nombre : "montserrat",
-	foto : "img/montserrat.jpg" };
-imgMex[9] = {
-	nombre : "vannia",
-	foto : "img/vannia.jpg" };
-imgMex[10] = {
-	nombre : "carmen",
-	foto : "img/carmen.jpg" };
-imgMex[11] = {
-	nombre : "edith",
-	foto : "img/edith.jpg" };
-imgMex[12] = {
+imgMex[1] = {
+	nombre: "claudia",
+	foto: "img/claudia.jpg" };
+imgMex[2] = {
 	nombre : "cristina",
 	foto : "img/cristina.jpg" };
+imgMex[3] = {
+	nombre : "edith",
+	foto : "img/edith.jpg" };
+imgMex[4] = {
+	nombre : "valeria",
+	foto : "img/valeria.jpg" };
+imgMex[5] = {
+	nombre : "vannia",
+	foto : "img/vannia.jpg" };
+imgMex[6] = {
+	nombre : "varinia",
+	foto : "img/varinia.jpg" };
+imgMex[7] = {
+	nombre : "yaredi",
+	foto : "img/yaredi.jpg" };
 /*
 var imgMex;
 imgMex = [];
